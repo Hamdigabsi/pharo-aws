@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "AmazonWebServices-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"action",
+		"headers",
+		"service",
+		"aws",
+		"timestamp"
+	],
+	"name" : "AWSGetRequest",
+	"type" : "normal"
+}

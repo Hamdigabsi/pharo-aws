@@ -1,0 +1,4 @@
+accessing
+region
+	
+	^ aws region

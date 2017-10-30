@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "AmazonWebServices-AuthenticationMethods",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"accessID",
+		"secretKey"
+	],
+	"name" : "AWS4HMacSha256",
+	"type" : "normal"
+}

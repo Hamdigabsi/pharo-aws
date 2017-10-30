@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "AmazonWebServices-Services",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"aws"
+	],
+	"name" : "AWSSimpleQueueService",
+	"type" : "normal"
+}

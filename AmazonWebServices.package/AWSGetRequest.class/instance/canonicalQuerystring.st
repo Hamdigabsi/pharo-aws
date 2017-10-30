@@ -1,0 +1,4 @@
+accessing
+canonicalQuerystring
+	
+	^ 'Action=', action
