@@ -4,7 +4,7 @@ printOn: aStream
 	aStream
 		nextPutAll: self class name;
 		nextPutAll: '(';
-		nextPutAll: domain;
+		nextPutAll: service;
 		nextPutAll: ' -> ';
 		nextPutAll: action;
 		nextPutAll: ')'
