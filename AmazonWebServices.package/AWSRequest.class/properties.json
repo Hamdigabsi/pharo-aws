@@ -1,11 +1,18 @@
 {
 	"commentStamp" : "",
-	"super" : "AWSRequest",
+	"super" : "Object",
 	"category" : "AmazonWebServices-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "AWSGetRequest",
+	"instvars" : [
+		"action",
+		"headers",
+		"service",
+		"aws",
+		"timestamp",
+		"queryString"
+	],
+	"name" : "AWSRequest",
 	"type" : "normal"
 }

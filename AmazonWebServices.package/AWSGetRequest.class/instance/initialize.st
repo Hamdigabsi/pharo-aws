@@ -1,5 +1,5 @@
 initialization
 initialize
+
 	super initialize.
-	timestamp := ZTimestamp now.
-	headers := OrderedDictionary new.
+	self queryAt: 'Version' put: '2012-11-05'

@@ -1,0 +1,4 @@
+initialization
+name
+
+	^ 'CreateQueue'

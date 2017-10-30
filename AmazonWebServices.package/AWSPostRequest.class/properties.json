@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "AWSGetRequest",
+	"name" : "AWSPostRequest",
 	"type" : "normal"
 }

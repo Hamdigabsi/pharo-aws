@@ -6,5 +6,5 @@ printOn: aStream
 		nextPutAll: '(';
 		nextPutAll: service;
 		nextPutAll: ' -> ';
-		nextPutAll: action;
+		nextPutAll: (self name);
 		nextPutAll: ')'

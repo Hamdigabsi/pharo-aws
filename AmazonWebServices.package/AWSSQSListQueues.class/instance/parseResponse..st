@@ -2,7 +2,7 @@ parsing
 parseResponse: aZnResponse 
 	
 	| listQueueResponse urls |
-	listQueueResponse := XMLDOMParser parseDocumentFrom: aZnResponse contents.
+	listQueueResponse := XMLDOMParser parse: aZnResponse contents.
 	urls := (((listQueueResponse elementAt: 'ListQueuesResponse')
 		elementAt: 'ListQueuesResult')
 			elementsAt: 'QueueUrl') asOrderedCollection

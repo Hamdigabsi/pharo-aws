@@ -1,4 +1,4 @@
 authentication
-signedHeadersFor: anAWSGetRequest 
+signedHeadersFor: aRequest 
 	
-	^ 'host;x-amz-date'.
+	^ aRequest signedHeaders
