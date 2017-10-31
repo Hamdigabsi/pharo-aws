@@ -1,0 +1,4 @@
+Accessing
+resourceUrl
+	
+	^ queueUrl

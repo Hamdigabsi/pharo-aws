@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "AWSGetRequest",
+	"category" : "AmazonWebServices-Services",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"queueUrl"
+	],
+	"name" : "AWSSQSDeleteQueue",
+	"type" : "normal"
+}

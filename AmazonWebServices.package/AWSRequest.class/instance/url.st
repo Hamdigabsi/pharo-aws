@@ -1,6 +1,4 @@
 accessing
 url
-	
-	| url |
-	url := ZnUrl fromString: self host defaultScheme: 'https'.
-	^ url asString, '?', self canonicalQueryString
+	| tmp1 |
+	^ self resourceUrl , '?' , self canonicalQueryString
