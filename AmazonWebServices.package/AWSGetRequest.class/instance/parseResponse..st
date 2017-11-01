@@ -1,4 +1,4 @@
 parsing
-parseResponse: arg1
-	"Do nothing"
-	^ self subclassResponsibility
+parseResponse: aZnResponse 
+	
+	self subclassResponsibility

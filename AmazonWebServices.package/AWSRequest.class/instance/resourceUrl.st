@@ -1,4 +1,4 @@
 accessing
 resourceUrl
 
-	^ (ZnUrl fromString: self host defaultScheme: 'https') asStrin
+	^ (ZnUrl fromString: self host defaultScheme: 'https') asString
