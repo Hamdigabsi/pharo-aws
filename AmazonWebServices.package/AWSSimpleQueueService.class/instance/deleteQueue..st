@@ -3,4 +3,5 @@ deleteQueue: queueUrl
 	
 	^ aws executeRequest: (AWSSQSDeleteQueue  new
 		aws: aws;
-		queueUrl: queueUrl).
+		queueUrl: queueUrl;
+		yourself).

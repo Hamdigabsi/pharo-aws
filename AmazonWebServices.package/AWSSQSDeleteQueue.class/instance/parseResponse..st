@@ -1,4 +1,4 @@
 parsing
-parseResponse: arg1
+parseResponse: response
 	"Do nothing"
-	^ self subclassResponsibility
+	^ self 

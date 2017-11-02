@@ -1,4 +1,3 @@
 accessing
-queueUrl: aString 
-	
+queueUrl: aString
 	queueUrl := aString
